@@ -1,0 +1,426 @@
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small {
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  outline: 0;
+
+  background: transparent; }
+
+  /* Give the body a width */
+body {
+  width: 100%;
+  margin: 0 auto; 
+  background-color: #f0efef;
+}
+
+
+nav {
+  width: 100%; 
+  background: #ea4335;            /*My lovely red color*/
+  box-shadow: 0 1px 4px black;
+  border-bottom: solid #001869 4px;
+  margin: 0px !important;
+ }
+
+ nav ul {
+  padding: 0;
+  margin-top: -1px;
+  border-top: solid #001869 1px;
+  }
+
+ nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 33.3333%; 
+  float: left;}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  }
+
+nav ul li a:hover {
+  background: #cc0000; 
+}
+
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+  color: #fff;
+  
+  text-decoration: none; 
+}
+
+
+h2{
+	font-family: oxygen;
+}
+h1{
+	font-family: lobster;
+}
+p{
+	font-family: oxygen;
+
+}
+
+
+.icon_container{
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+} 
+.my_icon{
+	height:70px;
+	width: 100%; 
+	object-fit: contain;
+	margin-left:5%;
+} 
+#mah_profilio_container{
+	padding-left:15px;
+	border-left:solid #fff 1px; 
+    color: #fff;
+    margin-top: 2px;
+}
+
+#mahfoud{
+	/*font-weight: bold;*/
+	font-family: oxygen_bold;
+	padding-top: 2px;
+}
+
+.col, .row{
+   /* border:solid #000 2px;  /*  My sweety border*/
+	text-align: center;	
+}
+
+
+.col_middle{
+    padding: 0px !important;
+
+}
+.col_middle p{
+  font-size: 16px;
+}
+.row_2_middle{
+	  height: 50%;
+    margin-top: -130px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    border-radius: 180px;
+    padding: 0px !important;
+}
+
+#col_middle_down_enter{
+    border-radius: 300px;
+    margin-top: 50px;
+    height: fit-content;
+    width: fit-content;
+    border: solid #ea4335 2px;
+    box-shadow: 
+    0 0 0px 4px rgba(0,0,0,0.1), 
+    inset 0 0 0 7px #EFEFEF, 
+    inset 0 0 25px black, 
+    0 0 10px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    margin-left: 24%;
+  }
+
+#My_img{
+	  object-fit: contain;
+    height: 200px;
+    width: 200px;
+}
+
+hr.style13 {
+	height: 10px;
+  /*color: #ea4335;*/
+	border: 0;
+	box-shadow: 0 5px 6px -4px #ea4335 inset;
+}
+
+
+#row_1_left, #row_1_right{
+padding-top: 142px;
+font-size: 15px;
+} 
+
+#row_2_left, #row_2_right{
+padding-top: 85px;
+font-size: 15px;
+}
+
+#about_container hr{
+  width: 50%;
+}
+
+#about_container p:hover{
+font-family: oxygen_bold; 
+transform:scale(1.08,1.08);
+transition: all 0.7s;
+}
+
+#col_middle_down_enter:hover{
+  transform:scale(1.2,1.2);
+  transition: all 0.7s;
+}
+
+#about_container hr:hover{
+  transform: scale(0.1);
+  transition: all 0.7s;
+}
+
+.tag_img{
+    position: absolute;
+    opacity: 0.3;
+    width: 110% ;
+    max-width: 110% !important;
+    height: 177px !important;
+    margin-top: -156px !important;
+    margin-left: -20px !important;
+    z-index: -20;
+}
+
+#tag_img_3,#tag_img_4{
+   width: 110% !important;
+   margin-left: -20px !important;
+}
+
+/************  profilio **************/
+#profilio_container{
+  margin-top: 90px;
+  height:auto;   /* to be removed*/
+  padding-bottom: 40px;
+  background: #ffffff url('https://www.dropbox.com/s/5ihlu1eko0v3tmg/pc_pg.jpg?raw=1') no-repeat center;
+  background-attachment: fixed;
+}
+
+.row_profilio{
+    padding: 9px;
+    background-color: #ea4335;
+    color: white;
+    border: solid #001869 2px;
+  }
+
+
+.slide{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+
+#profilio_container p{
+   top: 160px; 
+   left: 0; 
+   width: 100%;
+   margin-top: -115px;
+}
+
+
+
+#profilio_container p span { 
+   color: white; 
+   font: bold 24px/45px oxygen_bold, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+   z-index: 20;
+}
+
+#profilio_container img:hover{
+   transform:scale(1.3,1.3);
+   transition: all 0.7s;
+   z-index: 2000;
+}
+
+ #profilio_row{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+
+/************  contact **************/
+#contact_container{
+ margin-top: 50px;
+  height:auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact_slide{
+  height: fill-content;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#contact_container hr{
+  border-color: black;
+}
+
+#facebook_slide{
+  background-color: #81c9f9;
+}
+
+#youtube_slide{
+  background-color: #f9b5b1;
+}
+
+#linked_slide{
+  background-color: #81c9f9;
+}
+
+#facebook_slide h2{
+ color: #001869;
+}
+#youtube_slide h2{
+ color: #ea4335; 
+}
+#linked_slide h2{
+ color: #001869;
+}
+
+.contact_slide .btn{
+  border-radius: 0px;
+  width: 80%;
+}
+.back_img_slide{
+  width: 12%;
+  height: 9%;
+  float: left;
+}
+
+
+footer{
+  background-color: #ea4335 ;
+  padding-bottom: 20px; 
+  box-shadow: 0 5px 5px black;
+  border-top: solid #001869 4px;
+  height: auto;
+}
+
+
+#title_footer_container{
+  color: white; 
+  padding-top:10px; 
+}
+
+.form-control {
+    margin-top:5px; 
+    background-color: transparent;
+    color: white !important;
+    border: 1px solid #fff;
+    height: 47px;
+    font-size: 2rem;
+    width: 74%;
+    border-radius: 0px;
+}
+
+footer .btn{
+    width: 74%;
+    border-radius: 0px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: solid 1px #fff;
+    font-size: 2rem;
+}
+
+#message_box{
+  border-right: solid 1px #fff;
+
+}
+
+#message_note{
+    text-align: justify;
+    padding-left: 88px;
+    padding-top: 30px;
+  }
+
+ footer .row{
+  margin-left: 0px !important; 
+   margin-right: 0px !important; 
+ }
+
+
+/* footer social icons */
+.test {
+  margin-top: 20px;
+}
+.test a {
+  color: #fff;
+  background: #99583d;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 12px;
+  margin: 0 2px;
+  transition: all .5s;
+}
+.test a:hover {
+  background: #ff0000;
+}
+.test a:hover p {
+  bottom: 35px;
+  visibility: visible;
+}
+.test a p {
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  z-index: -1;
+  font-size: 14px;
+  border-radius: 2px;
+  background: #fff;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
+}
+.test a p:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+
+.test a:nth-of-type(1):before {
+  content: '\f0d5';
+}
+.test a:nth-of-type(2):before {
+  content: '\f113';
+}
+.test a:nth-of-type(3):before {
+  content: '\f17d';
+}
+.test a:nth-of-type(4):before {
+  content: '\f1cb';
+}
